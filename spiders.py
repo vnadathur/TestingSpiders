@@ -1,13 +1,1 @@
-
-
-
-print("Testing")
-
-
-
-x = input("Do you want to see the spider? (Y/N)")
-
-if (x = "y" || x = "Y"):
-    print("CODE FOR SPIDER")
-else: 
-    print("Ok, bye!")
+\n# spiders.py\n\ndef print_spider():\n    spider_art = """\n         ( )\n        (   )\n       (     )\n      (       )\n     (         )\n    (           )\n   (             )\n  (               )\n (                 )\n(                   )\n  (               )\n   (             )\n    (           )\n     (         )\n      (       )\n       (     )\n        (   )\n         ( )\n    """\n    print(spider_art)\n\nif __name__ == "__main__":\n    print_spider()\n
